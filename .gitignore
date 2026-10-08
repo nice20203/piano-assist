@@ -24,3 +24,9 @@ desktop.ini
 
 # 本机推送助手
 push.bat
+
+# ---- 打包产物 ----
+build/
+dist/
+*.spec
+*.exe

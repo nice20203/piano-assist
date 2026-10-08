@@ -7,7 +7,9 @@
 import os
 import re
 
-LIB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "曲库")
+from paths import app_dir
+
+LIB_DIR = os.path.join(app_dir(), "曲库")
 
 # 整行都是"音符记号"的样子（数字、升降号、八度点、空格、小节线）
 _NOTEISH = re.compile(r"^[\d#b',\s|]+$")

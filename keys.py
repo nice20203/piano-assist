@@ -11,6 +11,8 @@
 import json
 import os
 
+from paths import app_dir, preset_dir
+
 LOW, HIGH = 48, 83                      # MIDI 音域 C3 ~ B5
 
 # ---------------- 键位预设 ----------------
@@ -18,7 +20,7 @@ LOW, HIGH = 48, 83                      # MIDI 音域 C3 ~ B5
 # 想适配别的游戏，只要往 presets/ 里丢一个 JSON，不用改代码。
 # 下面这份是 presets/ 目录缺失时的兜底。
 
-PRESET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "presets")
+PRESET_DIR = preset_dir()
 
 _BUILTIN = {
     "identity-v-36": (
@@ -79,8 +81,7 @@ VERSIONS = load_presets()
 
 BLACK_SEMITONES = {61, 63, 66, 68, 70, 73, 75, 78, 80, 82}
 
-KEYMAP_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                           "keymap.json")
+KEYMAP_PATH = os.path.join(app_dir(), "keymap.json")
 
 _NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
 

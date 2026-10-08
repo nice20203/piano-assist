@@ -16,6 +16,7 @@ import tkinter as tk
 from ctypes import wintypes
 
 import keys as K
+from paths import data_file
 
 # ---------------- Win32 ----------------
 user32 = ctypes.WinDLL("user32", use_last_error=True)
@@ -140,8 +141,7 @@ def force_topmost(hwnd):
 # ---------------- 覆盖层 ----------------
 class PianoOverlay:
     def __init__(self, parent=None, config_path=None):
-        self.config_path = config_path or os.path.join(
-            os.path.dirname(os.path.abspath(__file__)), "calib.json")
+        self.config_path = config_path or data_file("calib.json")
         self.rel_x, self.rel_y = 0, 0          # 相对游戏窗口
         self.abs_x, self.abs_y = None, None    # 游戏不在时的绝对位置
         self.w, self.h = 720, 240
