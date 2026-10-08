@@ -1,59 +1,3 @@
-Piano Assist - 弹琴辅助
-Copyright (C) 2026  Piano Assist contributors
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-======================================================================
-
----
-title: GNU General Public License v3.0
-spdx-id: GPL-3.0
-nickname: GNU GPLv3
-redirect_from: /licenses/gpl-v3/
-featured: true
-hidden: false
-
-description: Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
-
-how: Create a text file (typically named COPYING, as per GNU conventions) in the root of your source code and copy the text of the license into the file.
-
-note: The Free Software Foundation recommends taking the additional step of adding a boilerplate notice to the top of each file. The boilerplate can be found at the end of the license.
-
-using:
-  Ansible: https://github.com/ansible/ansible/blob/devel/COPYING
-  Niri: https://github.com/niri-wm/niri/blob/main/LICENSE
-  uBlock Origin: https://github.com/gorhill/uBlock/blob/master/LICENSE.txt
-
-permissions:
-  - commercial-use
-  - modifications
-  - distribution
-  - patent-use
-  - private-use
-
-conditions:
-  - include-copyright
-  - document-changes
-  - disclose-source
-  - same-license
-
-limitations:
-  - liability
-  - warranty
-
----
-
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
@@ -687,8 +631,8 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-    <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) <year>  <name of author>
+    Piano Assist - a practice assistant that shows which key to press
+    Copyright (C) 2026  nice20203
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -708,7 +652,7 @@ Also add information on how to contact you by electronic and paper mail.
   If the program does terminal interaction, make it output a short
 notice like this when it starts in an interactive mode:
 
-    <program>  Copyright (C) <year>  <name of author>
+    <program>  Copyright (C) 2026  nice20203
     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
     This is free software, and you are welcome to redistribute it
     under certain conditions; type `show c' for details.
