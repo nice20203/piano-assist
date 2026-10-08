@@ -1,0 +1,8 @@
+[project]
+name = "pianoassist"
+version = "0.1.0"
+description = "第五人格 弹琴辅助 —— 顺序/时间双模式 + 可标定覆盖层"
+requires-python = ">=3.10"
+dependencies = [
+    "pynput>=1.7.6",
+]

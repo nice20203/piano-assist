@@ -1,0 +1,26 @@
+# ---- 用户本地数据（不要上传）----
+曲库/
+keymap.json
+calib.json
+error.log
+
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- 调试产物 ----
+_*.png
+*.log
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本机推送助手
+push.bat
